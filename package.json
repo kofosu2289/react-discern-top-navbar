@@ -1,17 +1,26 @@
 {
-  "name": "react-package-boilerplate",
+  "name": "react-discern-top-navbar",
   "version": "1.0.0",
-  "description": "Boilerplate to quickly start React component development",
+  "description": "UI component to determine if you are scrolled to the top of the page",
+  "keywords": [
+    "react",
+    "npm",
+    "navbar",
+    "kofosu2289",
+    "top-discerning",
+    "ui",
+    "page",
+    "top"
+  ],
   "main": "./dist/index.js",
   "scripts": {
     "build": "webpack --config webpack.config.babel.js",
     "build-examples": "webpack --config examples/webpack.config.babel.js --progress",
     "clean": "rm -rf dist coverage",
-    "coverage": "jest --coverage",
     "lint": "eslint ./src",
     "prepublish": "npm run clean && npm run test && npm run build",
     "start": "webpack-dev-server --config examples/webpack.config.live.babel.js",
-    "test": "npm run lint &&npm run coverage"
+    "test": "npm run lint"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",

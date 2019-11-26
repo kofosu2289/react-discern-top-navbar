@@ -1,3 +1,3 @@
-import MyComponent from './MyComponent';
+import TopDiscerningNavbar from './TopDiscerningNavbar';
 
-export default MyComponent;
+export default TopDiscerningNavbar;
